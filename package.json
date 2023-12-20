@@ -17,14 +17,14 @@
       "ux menu",
       "bubbles"
     ],
-    "author": "Your Name",
+    "author": "Biasiolo",
     "license": "MIT",
     "dependencies": {
       "jquery": "^3.6.0"
     },
-    "homepage": "https://your-username.github.io/interactive-menu",
+    "homepage": "https://gooey-interactive-menu.vercel.app/",
     "bugs": {
-      "url": "https://github.com/your-username/interactive-menu/issues"
+      "url": "https://github.com/Biasiolo/gooey-interactive-menu/issues"
     }
   }
   

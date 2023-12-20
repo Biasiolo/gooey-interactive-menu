@@ -1,5 +1,9 @@
 # Interactive Menu with Animated Bubbles
 
+## Application Website
+
+Visit our [Application Website](https://gooey-interactive-menu.vercel.app/) for a live demonstration.
+
 This project consists of an interactive menu with animated bubbles, created to add a dynamic and engaging visual experience to your website. The bubbles are stylized and animated randomly, providing a fun and modern touch to user navigation.
 
 ## Features
@@ -51,8 +55,8 @@ This project consists of an interactive menu with animated bubbles, created to a
 ```javascript
 // Basic configuration example in your JavaScript file
 $(document).ready(function () {
-    createAntDots();
-    animateAntDots();
+    createBubbles();
+    animateBubbles();
 });
 ```
 
@@ -62,9 +66,6 @@ $(document).ready(function () {
 ![Menu 2](img/menu_2.png)
 ![Menu 3](img/menu_3.png)
 
-## Application Website
-
-Visit our [Application Website](https://your-application-website.com) for a live demonstration.
 
 ## Contributions
 
