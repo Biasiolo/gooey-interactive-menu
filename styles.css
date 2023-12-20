@@ -16,11 +16,13 @@ html {
     transform: translateX(-100%);
     left: 60px;
     cursor: pointer;
+    z-index: 999;
 }
 
 #menu.expanded {
     transform: translateX(0%);
     left: 0px;
+    
 }
 
 .menu-inner {
@@ -76,7 +78,7 @@ h2 {
     font-size: 25px;
     font-family: sans-serif;
     font-weight: 100;
-    z-index: 999;
+    z-index: 998;
 }
 
 ul {
