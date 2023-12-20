@@ -1,30 +1,29 @@
 {
     "name": "gooey-interactive-menu",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An interactive menu with animated bubbles for engaging user experience.",
     "main": "script.js",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/Biasiolo/gooey-interactive-menu.git"
+        "type": "git",
+        "url": "https://github.com/Biasiolo/gooey-interactive-menu.git"
     },
     "keywords": [
-     "interactive",
-      "menu",
-      "animated",
-      "gooey menu",
-      "animated menu",
-      "full-screen menu",
-      "ux menu",
-      "bubbles"
+        "interactive",
+        "menu",
+        "animated",
+        "gooey menu",
+        "animated menu",
+        "full-screen menu",
+        "ux menu",
+        "bubbles"
     ],
     "author": "Biasiolo",
     "license": "MIT",
     "dependencies": {
-      "jquery": "^3.6.0"
+        "jquery": "^3.6.0"
     },
     "homepage": "https://gooey-interactive-menu.vercel.app/",
     "bugs": {
-      "url": "https://github.com/Biasiolo/gooey-interactive-menu/issues"
+        "url": "https://github.com/Biasiolo/gooey-interactive-menu/issues"
     }
-  }
-  
+}
