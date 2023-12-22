@@ -37,8 +37,8 @@ $(document).ready(function() {
     }
   
     // Constants for animation
-    var hoverZone = 150;
-    var expandAmount = 20;
+    var hoverZone = 200;
+    var expandAmount = 40;
   
     // Function to create SVG curve animation
     function svgCurve() {
@@ -66,9 +66,9 @@ $(document).ready(function() {
       }
   
       // Calculate curve values
-      curveX = easeOutExpo(xitteration, curveX, targetX - curveX, 100);
-      curveY = easeOutExpo(yitteration, curveY, y - curveY, 100);
-      var anchorDistance = 200;
+      curveX = easeOutExpo(xitteration, curveX, targetX - curveX, 60);
+      curveY = easeOutExpo(yitteration, curveY, y - curveY, 60);
+      var anchorDistance = 250;
       var curviness = anchorDistance - 60;
   
       // SVG path definition
@@ -86,5 +86,24 @@ $(document).ready(function() {
   
     // Initial call to start animation
     window.requestAnimationFrame(svgCurve);
+
+
+    function closeModal() {
+      var modal = document.getElementById('curriculum-modal');
+      modal.classList.remove('open');
+  }
+
+  // Adicione este trecho para fechar o modal quando o botão dentro do modal é clicado
+  $('#curriculum-modal .close-button').on('click', function () {
+      closeModal();
   });
+
+  // Evento de clique no botão do menu para abrir o modal
+  $('#open-curriculum').on('click', function (e) {
+      e.preventDefault();
+      $('#curriculum-modal').addClass('open');
+  });
+
+
+});
   

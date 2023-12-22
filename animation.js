@@ -11,7 +11,7 @@ function createAntDots() {
     var dotsContainer = $("<div>").addClass("dots-container").appendTo(".div-container");
 
     // Número de pontos
-    var numberOfDots = 50;
+    var numberOfDots = 60;
 
     for (var i = 0; i < numberOfDots; i++) {
         var dot = $("<div>").addClass("dot").appendTo(dotsContainer);
@@ -27,12 +27,12 @@ function createAntDots() {
 
 function animateBubbles() {
     var allowedAreaX = {
-        min: window.innerWidth * 0.25,
-        max: window.innerWidth * 0.75,
+        min: window.innerWidth * 0.2,
+        max: window.innerWidth * 0.8,
     };
     var allowedAreaY = {
         min: window.innerHeight * 0.1,
-        max: window.innerHeight * 0.7,
+        max: window.innerHeight * 0.8,
     };
 
     $(".dot").each(function (index) {
